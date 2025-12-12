@@ -1,0 +1,910 @@
+/*-------------------------------*/
+/* Fonts/
+/*-------------------------------*/
+
+@charset "uft-8";
+@import url("https://www.dafont.com/quicksand.font");
+@import url("https://www.dafont.com/lemon-2.font");
+
+
+@font-face {
+  font-family: "Quicksand_Book";
+  src: url("fonts/Quicksand_Book.otf");
+}
+@font-face {
+    font-family: "LEMON";
+    src: url("fonts/LEMON.otf");
+}
+
+@font-face {
+    font-family: "Quicksand_Bold";
+    src: url("fonts/Quicksand_Bold.otf");
+}
+
+@font-face {
+    font-family: "Quicksand_Book_Oblique";
+    src: url("fonts/Quicksand_Book_Oblique.otf");
+}
+body{
+    position: absolute;
+    font-family: "Quicksand_Book", 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-bottom: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    background-image: url(images/AdobeStock_297736275.jpeg);
+    height: auto;
+}
+/*-------------------------------*/
+/* Header texts*/
+/*-------------------------------*/
+h1{
+    position: relative;
+    padding: 10px;
+    color: white;
+    font-family: "LEMON", 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 50px;
+    align-content: center;
+    word-spacing: 2px;
+
+}
+
+strong{
+    font-family: "Quicksand_Bold" 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+/*-------------------------------*/
+/* Navigation Bar*/
+/*-------------------------------*/
+header{
+    position: relative;
+    background-color:#252222;
+    white-space: nowrap;
+    align-items: center;
+    top: -35px;
+    height: 150px;
+    font-family: "Quicksand_Bold";
+    
+}
+
+#shoppingcart{
+    position: relative;
+    float: right;
+    right: 100px;
+    top: -80px;
+    padding: 5px;
+}
+
+#searchbar input{
+    position: relative;
+    float: right;
+    height: 30px;
+    border: none;
+    font-size: 17px;
+    top: -105px;
+    right: 395px;
+    width: 240px;
+    display: flex;
+    flex-wrap: nowrap;
+    white-space: nowrap;
+}
+
+#searchbar button{
+    position: relative;
+    float: right;
+    font-size: 17px;
+    border: none;
+    cursor: pointer;
+    height: 32px;
+    width: 100px;
+    top: -105px;
+    right: 50px;
+    background-color: #e4e4e4;
+  }
+
+  #searchbar button:hover{
+    background-color: #ccc;
+  }
+
+  #shoppingcart{
+    left: 120px;
+    top: -105px;
+    cursor: pointer;
+  }
+
+
+nav {
+    background-color: #9087A2;
+    height: 60px;
+    width: 100%;
+    position: absolute;
+    font-size: 20px;
+    margin: 0 auto;
+    text-align: center;
+    word-spacing: 50px;
+}
+nav ul{
+    position: absolute;
+    top: -95px;
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    left: 400px;
+}
+
+nav li{
+    position: relative;
+    margin: 100px;
+    text-align: center;
+    align-content: center;
+    justify-content: space-evenly;
+    white-space: nowrap;
+   
+}
+   
+
+nav a:link{
+    color: #484352;
+    text-decoration: none;
+    border-width: 10px;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+nav a:hover{
+    border: 10px;
+    color: #844d4d;
+    text-decoration:none;
+    background-size: 100%;
+  }
+
+  #navbar img{
+    position: relative;
+    width: 100%;
+  }
+
+  #pagebanner img{
+    position: relative;
+    padding-top: 10px;
+    margin: 0 auto;
+    align-items: center;
+    display: flex;
+    justify-content:center;
+    right: 100x;
+}
+
+/*-------------------------------*/
+/* Page 1 content*/
+/*-------------------------------*/
+#container1{
+    padding-top: 25px;
+    
+}
+
+#whoarewe h2{
+    font-family:"LEMON", 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 50px;
+    padding: 25px;
+    padding-bottom: 5px;
+}
+
+#about{
+    font-family: "Quicksand_Book", 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-left: 100px;
+    padding-right:100px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+#ourmembers{
+    font-family:"LEMON", 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 45px;
+    padding: 25px;
+}
+
+#memberphotos{
+    position: relative;
+    padding-top: 10px;
+    margin: 0 auto;
+    align-items: center;
+    display: flex;
+    justify-content: space-evenly;
+    white-space: nowrap;
+}
+
+
+/* -------------------------------- */
+/* CONCERT INFORMATION */
+/* -------------------------------- */
+
+#concerttickets{
+    position: relative;
+    display: flex;
+    font-family: "LEMON", 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 45px;
+    padding: 25px;
+    padding-bottom: 150px;
+    background-color: #252222;
+    color: white;
+    height: 300px;
+    margin: 0 auto;
+    
+}
+
+#concertdates{
+    font-family: "Quicksand_Book", 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    flex-direction: column;
+}
+
+td, th {
+    border: none;
+    padding: 10px;
+    font-size: 12;
+    background-color: #e8e8e8;
+    color: black;
+    height: 50px;
+    width: 500px;
+    margin: 0 auto;
+    justify-items: center;
+
+}
+table{
+    position: absolute;
+    font-size: 16px;
+    padding-top: 8px;
+    width: 645px;
+    top: 100px;
+    right: 50%;
+}
+
+
+#concerttickets tr{
+    font-family: "Quicksand_Book", 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* -------------------------------- */
+/* BUY A TICKET */
+/* -------------------------------- */
+
+#ticketorderform{
+    font-family:"Quicksand_Book", 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 15px;
+    left: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#ticketorderform fieldset{
+    position: absolute;
+    width: 600px;
+    height: 256px;
+    bottom: 628px;
+    background-color: #9087A2;
+    border: none;
+    padding: 15px;
+    margin: 10px;
+    left: 50%;
+}
+
+#ticketorderform legend{
+    position: absolute;
+    bottom: 240px;
+    font-size: large;
+}
+#entername strong{
+    font-size: 17px;
+}
+
+#entername{
+    position: relative;
+    align-items: center;
+    padding: 3px;
+    left: 10px;
+    top: 50px;
+}
+
+#selectadate{
+    position: absolute;
+    align-items: center;
+    padding: 3px;
+    left: 225px;
+    top: 65px;
+}
+
+#selectadate strong{
+    position:absolute;
+    font-size: 17px;
+    left: 10px;
+}
+
+#ticketprice strong{
+    position:absolute;
+    font-size: 17px;
+    left: 10px;
+}
+#ticketprice{
+    position: absolute;
+    align-items: center;
+    padding: 3px;
+    left: 425px;
+    top: 65px;
+}
+
+#recieveupdates{
+    position: absolute;
+    top: 165px;
+    padding: 30px;
+    left: 200px;
+}
+#ticketorderform button{
+    position: absolute;
+    top: 250px;
+    border: none;
+    background-color: #484352 ;
+    color: #ffffff;
+    height: 25px;
+    width: 100px;
+    left: 425px;
+    flex-wrap: nowrap;
+}
+
+#ticketorderform button:hover{
+    background: #844d4d;
+    cursor: pointer;
+}
+
+/* -------------------------------- */
+/* ALBUM PROMOTION*/
+/* -------------------------------- */
+#newalbum{
+    position: relative;
+    padding: 30px;
+    height: 400px;
+    right: 180px;
+}
+
+#ordertoday{
+    position: absolute;
+    width: 600px;
+    height: 275px;
+    bottom: 95px;
+    background-color: #9087A2;
+    border: none;
+    padding: 15px;
+    margin: 10px;
+    left: 50%;
+}
+
+#orderbox{ 
+    position: absolute;
+    font-family: "LEMON", 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 50px;
+    left: 50px;
+    bottom: 125px;
+
+}
+#orderbox em{
+    position: absolute;
+    font-family: "Quicksand_Book", 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    left: 125px;
+}
+
+#orderbox button{
+    font-family: "Quicksand_Bold", 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    position: absolute;
+    top: 110px;
+    border: none;
+    background-color: #484352;
+    color: white;
+    height: 50px;
+    width: 100px;
+    left: 225px;
+    flex-wrap: nowrap;
+}
+
+#orderbox button:hover{
+    background: #844d4d;
+    cursor: pointer;
+}
+
+#albumcoverpromotion img{
+    position: absolute;
+    top: 50px;
+    right: 50%;
+}
+/* -------------------------------- */
+/* PAGE 2*/
+/* -------------------------------- */
+
+#container2{
+    padding-top: 25px;
+    height: 1000px;
+
+}
+
+#productinfo{
+    position: relative;
+    padding: 25px;
+    right: 100px;
+    justify-content: center;
+    height: 815px;
+    display: flex;
+    flex-wrap: nowrap;
+    white-space: nowrap;
+}
+
+#producttitle{
+    position: relative;
+    font-family: "LEMON", 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 75px;
+    left: 550px;
+    top: 50px;
+    display: flex;
+    flex-shrink: 50px;
+    flex-wrap: nowrap;
+    white-space: nowrap;
+}
+
+#producttitle h2{
+    position: absolute;
+    font-family: "Quicksand_Book", 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    top: 100px;
+    display: flex;
+    flex-wrap: nowrap;
+    white-space: nowrap;
+}
+#frontcoversamples img{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    padding: 25px;
+    left: 425px;
+    background-color: #676173;
+}
+
+#productprice{
+    position: relative;
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+#productprice button{
+    position: relative;
+    background-color: #484352;
+    border: none;
+    color: white;
+    padding: 15px 22px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+    float: left;
+    height: 50px;
+    width: 150px;
+    margin: 2px 4px;
+    left: 165px;
+    top: 200px;
+}
+#productprice button:hover{
+    background: #844d4d;
+    cursor: pointer;
+}
+
+#productdetails{
+    position: relative;
+    width: 350px;
+    min-width: 350px;
+    height: 350px;
+    top: 315px;
+    background-color: #9087A2;
+    padding: 15px;
+    right: 310px;
+    display: flex;
+    flex-wrap: nowrap;
+    white-space: nowrap;
+    
+}
+#description{ 
+    position: absolute;
+    font-family: "LEMON", 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 50px;
+    display: flex;
+    flex-wrap: nowrap;
+    white-space: nowrap;
+}
+
+#tracklist{
+    position: absolute;
+    font-family: "Quicksand_Book", 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 18px;
+    left: 50px;
+    top: 95px;
+}
+
+#tracklist ul{
+    position: absolute;
+    left: -55px;
+    top: -20px;
+}
+
+#tracklist li{
+    padding: 5px;
+    bottom: 10px;
+    display: flex;
+    flex-wrap: nowrap;
+    white-space: nowrap;
+}
+
+#tracklist strong{
+    position: absolute;
+    font-family: "Quicksand_Bold", 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    top: 5px;
+}
+
+
+/* -------------------------------- */
+/* PAGE 3*/
+/* -------------------------------- */
+
+#container3{
+    padding: 25px;
+    bottom: 10px;
+    height: 1800px;
+    
+}
+
+#merchshop{
+    font-family: "LEMON", 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 45px;
+    padding: 25px;
+    
+}
+
+
+#merchshop h2{
+    font-family: "Quicksand_Book", 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 25px;
+    font-style: oblique;
+}
+/* -------------------------------- */
+/* WOMAN'S TSHIRT*/
+/* -------------------------------- */
+
+#merchwomens{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    top: 100px;
+    margin: 5px;
+    flex-wrap: nowrap;
+    white-space: nowrap;
+}
+
+#merchwomens div{
+    position: relative;
+    background-color: #d0d0d0;
+    width: 475px;
+    height: 350px;
+    margin: 10px;
+    padding: 20px;
+    font-size: 24px;
+    justify-content: space-evenly;
+    align-content: center;
+    flex-wrap: nowrap;
+    white-space: nowrap;
+    flex-shrink: 0;
+    padding: 25px;
+    border: #676173;
+    border-width: 10px;
+    border-style: solid;
+}
+
+#merchwomens p{
+    font-family: "Quicksand_Bold", 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#merchwomens button{
+    font-family: "Quicksand_Book", 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 15px;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: nowrap;
+    white-space: nowrap;
+    border: none;
+    width: 100px;
+    height: 30px;
+    padding: 10px;
+    background-color: #484352;
+    color: white;
+    bottom: 250px;
+    margin: 5px;
+    text-align: center;
+    align-self: center;
+    left: 375px;
+}
+#merchwomens button:hover{
+    background-color: #844d4d;
+    cursor: pointer;
+}
+
+#merchwomens img{
+    position: relative;
+    display: flex;
+}
+
+
+/* -------------------------------- */
+/* MEN'S TSHIRT*/
+/* -------------------------------- */
+
+#merchmens{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    top: 100px;
+    margin: 5px;
+    flex-wrap: nowrap;
+    white-space: nowrap;
+}
+
+#merchmens div{
+    position: relative;
+    background-color: #d0d0d0;
+    width: 475px;
+    height: 350px;
+    margin: 10px;
+    padding: 20px;
+    font-size: 24px;
+    justify-content: space-evenly;
+    align-content: center;
+    flex-wrap: nowrap;
+    white-space: nowrap;
+    flex-shrink: 0;
+    padding: 25px;
+    border: #676173;
+    border-width: 10px;
+    border-style: solid;
+}
+
+#merchmens p{
+    font-family: "Quicksand_Bold", 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#merchmens button{
+    font-family: "Quicksand_Book", 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 15px;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: nowrap;
+    white-space: nowrap;
+    border: none;
+    width: 100px;
+    height: 30px;
+    padding: 10px;
+    background-color: #484352;
+    color: white;
+    bottom: 250px;
+    margin: 5px;
+    text-align: center;
+    align-self: center;
+    left: 375px;
+}
+#merchmens button:hover{
+    background-color: #844d4d;
+    cursor: pointer;
+}
+
+#merchmens img{
+    position: relative;
+    display: flex;
+}
+
+/* -------------------------------- */
+/* VINYL RECORD*/
+/* -------------------------------- */
+
+#vinylrecord{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    top: 100px;
+    margin: 5px;
+    flex-wrap: nowrap;
+    white-space: nowrap;
+    flex-shrink: 0;
+    flex-grow: 0;
+}
+#vinylrecord div{
+
+    position: relative;
+    background-color: #d0d0d0;
+    width: 650px;
+    height: 350px;
+    margin: 10px;
+    padding: 20px;
+    font-size: 24px;
+    justify-content: space-evenly;
+    margin: 0 auto;
+    align-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+    white-space: nowrap;
+    flex-shrink: 0;
+    padding: 25px;
+    border: #676173;
+    border-width: 10px;
+    border-style: solid;
+}
+
+#vinylrecord p{
+
+    font-family: "Quicksand_Bold", 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#vinylrecord img{
+    position: relative;
+    left: 20px;
+}
+
+#vinylrecord button{
+    font-family: "Quicksand_Book", 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 15px;
+    position: relative;
+    bottom: 10px;
+    border: none;
+    background-color: #484352;
+    color: white;
+    width: 100px;
+    height: 30px;
+    left: 125px;
+    flex-wrap: nowrap;
+    margin: 10px;
+}
+
+#vinylrecord button:hover{
+    background-color: #844d4d;
+    cursor: pointer;
+}
+
+/* -------------------------------- */
+/* FORM */
+/* -------------------------------- */
+
+#container4{
+
+    padding-top: 25px;
+}
+
+#orderform{
+    position: relative;
+    display: flex;
+    flex-wrap: nowrap;
+    padding: 30px;
+    height: 1000px;
+    margin: 0 auto;
+    align-content: center;
+}
+
+#orderformheader strong{
+    font-family: "LEMON",'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 40px;
+    padding: 25px;
+    display: flex;
+    flex-wrap: nowrap;
+    white-space: nowrap;
+}
+
+#customername div{
+    font-family: "Quicksand_Book", 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    position: relative;
+    width: 475px;
+    height: 700px;
+    font-size: 20px;
+    margin: 2px;
+    justify-content: space-evenly;
+    display: flex;
+    align-content: center;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    white-space: nowrap;
+    flex-shrink: 0;
+    padding: 30px;
+    right: 200px;
+    top: 100px;
+    background-color: #9087A2;
+}
+#orderform fieldset{
+    font-family: "Quicksand_Book", 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    position: relative;
+    width: 400px;
+    height: 500px;
+    font-size: 20px;
+    margin: 2px;
+    justify-content: space-evenly;
+    display: flex;
+    align-content: center;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    white-space: nowrap;
+    flex-shrink: 0;
+    padding: 30px;
+    left: 450px;
+    bottom: 670px;
+    border: #252222;
+    border-width: 10px;
+    border-style:ridge;
+}
+
+#discountcode{
+    position: relative;
+    bottom: 650px;
+    left: 450px;
+    font-size: 20px;
+}
+
+#discountcode input{
+    position: relative;
+    left: 5px;
+    bottom: -10px;
+}
+
+#orderform button{
+    position: relative;
+    background-color: #484352;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+    float: left;
+    height: 40px;
+    width: 150px;
+    margin: 2px 4px;
+    bottom: 600px;
+    left: 700px;
+}
+
+#orderform button:hover{
+
+    background-color: #844d4d;
+    cursor: pointer;
+}
+
+/* -------------------------------- */
+/* THANK YOU MESSAGE*/
+/* -------------------------------- */
+
+#thankyou{
+    padding: 100px;
+    font-size: 50px;
+    height: 450px;
+}
+
+/* -------------------------------- */
+/* FOOTER*/
+/* -------------------------------- */
+
+footer{
+    background-color: #252222;
+    height: 80px;
+    padding: 10px;
+    color: white;
+    font-family: "Quicksand_Book", 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+ 

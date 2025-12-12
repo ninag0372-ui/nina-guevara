@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>Merchandise Checkout</title>
+		<link href="styles.css" rel="stylesheet" type="text/css" />
+	</head>
+
+<!-- ------------------------
+NAVIGATION BAR
+------------------------ -->
+    
+    <body>
+        <header>
+            <h1><a target ="_blank" href ="index.html"><img src = "images/logo.png" alt = "logo image" width = "50"></a>5Ø3 † REBØRN</h1>
+            <nav>
+                <ul>
+                    <li><a href = "index.html" >HOME</a></li>
+                    <li><a href = "album.html" >ALBUMS</a></li>
+                    <li><a href = "merchandise.html" >MERCHANDISE</a></li>
+                </ul>
+                
+                <div id = "searchbar">
+                    <input type = "text" placeholder="Search" name = "search">
+                    <button type = "submit">Submit</button>
+                </div>
+                <div id = "shoppingcart">
+                    <a target ="_blank" href ="merchorderform.html"><img src = "images/shoppingcart.png" alt = "logo image" width = "30"></a>
+                </div>
+            </nav>
+        </header>
+
+        <div id = "container4">
+            <div id = "pagebanner">
+                <a target = "_blank" href = "merchandise.html"></a><img src = "images/pagefourbanner.png" alt = "purple silouette of a girl, with text saying 'redeem your code to get a 50% discount on all items!'" width = "900">
+            </div>
+
+
+<!-- ------------------------
+CUSTOMER INFORMATION
+------------------------ -->
+
+            <div id = "orderform">
+                <div id = "orderformheader">
+                    <strong>CUSTØMER INFØRMATIØN</strong>
+                </div>
+
+                <form action = "merchpurchasethanks.html">
+                    <div id = "customername">
+                        <div><label for = "fname"><strong>First Name</strong></label><br>
+                        <input type = "text" size = "50" id ="fname" name="fname" placeholder="Butters"><br><br>
+                        <label for = "lname"><strong> Last Name</strong></label><br>
+                        <input type = "text" size = "50" id ="lname" name="lname" placeholder="Stotch"><br><br>
+                        <label for = "mail"><strong>Email</strong></label><br>
+                        <input type = "text" size = "50" id ="mail" name="mail" placeholder="profchaos@gmail.com"><br><br>
+                        <label for = "address"><strong>Address</strong></label><br>
+                        <input type = "text" size = "50" id ="address" name="address"><br><br>
+                        <label for = "creditcard"><strong>Credit card number</strong></label><br>
+                        <input type = "text" size = "50" id ="creditcard" name="creditcard"><br><br>
+                        <label for = "Expirydate"><strong> Expiry Date (MM/YY)</strong></label><br>
+                        <input type = "text" size = "50" id ="Expirydate" name="Expirydate"><br><br>
+                        <label for = "CVV"><strong>CVV</strong></label><br>
+                        <input type = "text" size = "50" id ="CVV" name="CVV"><br><br></div>
+                    </div>
+
+                    <fieldset>
+                        <legend>Merch order Form</legend>
+                        <div id = "merchorderform">
+                            <div id = "womensmerchselect">
+                        <!-- ------------------------
+                         WOMEN'S SIZES
+                         ------------------------ -->
+
+                                <strong>WOMENS</strong><br><br>
+                                <input type = "checkbox" id = "womenscrossshirt" name = "womenscrossshirt" value = "purchasewomensshirt1">
+                                <label for = "womenscrossshirt">PURPLE CROSS GRAPHIC T-SHIRT</label><br>
+                                <input type = "checkbox" id = "womens503shirt" name = "womens503shirt" value = "purchasewomensshirt2">
+                                <label for = "womens503shirt">5Ø3 GRAPHIC T-SHIRT</label><br>
+                                <input type = "checkbox" id = "womens503rebornshirt" name = "womens503rebornshirt" value = "purchasewomensshirt3">
+                                <label for = "womens503rebornshirt">5Ø3 † REBØRN GRAPHIC T-SHIRT</label><br><br>
+                            </div>
+                            
+                            <div id = womenssizing>
+                                <label for = "shirtsizewomens"> Select a size</label><br>
+                                <select id = "shirtsizewomens" name = "shirtsizewomens">
+                                    <option value = "xsmall">XSmall</option>
+                                    <option value = "small">Small</option>
+                                    <option value = "medium">Medium</option>
+                                    <option value = "large">Large</option>
+                                    <option value = "xlarge">xLarge</option>
+                                </select>
+                            </div>
+
+                         <!-- ------------------------
+                         MEN'S SIZES
+                         ------------------------ -->
+                            
+                            <div id = "mensmerchselect">
+                                <br><strong>MENS</strong><br><br>
+                                <input type = "checkbox" id = "menscrossshirt" name = "menscrossshirt" value = "purchasemensshirt1">
+                                <label for = "menscrossshirt">PURPLE CROSS GRAPHIC T-SHIRT</label><br>
+                                <input type = "checkbox" id = "mens503shirt" name = "mens503shirt" value = "purchasemensshirt2">
+                                <label for = "mens503shirt">5Ø3 GRAPHIC T-SHIRT</label><br>
+                                <input type = "checkbox" id = "mens503rebornshirt" name = "mens503rebornshirt" value = "purchasemensshirt3">
+                                <label for = "mens503rebornshirt">5Ø3 † REBØRN GRAPHIC T-SHIRT</label><br><br>
+                                
+                                
+                                <label for = "shirtsizemens"> Select a size</label><br>
+                                <select id = "shirtsizemens" name = "shirtsizemens">
+                                    <option value = "xsmall">XSmall</option>
+                                    <option value = "small">Small</option>
+                                    <option value = "medium">Medium</option>
+                                    <option value = "large">Large</option>
+                                    <option value = "xlarge">xLarge</option>
+                                </select>
+                            </div>
+
+                        <!-- ------------------------
+                         ALBUM ORDERS
+                         ------------------------ -->
+
+                            <div id = albumtypeselect>
+                                <br><strong> Order Album</strong><br><br>
+                                <input type = "checkbox" id = "digitalalbum" name = "digitalalbum" value = "purchasedigitalalbum">
+                                <label for = "digitalalbum">Digital Album</label><br>
+                                <input type = "checkbox" id = "vinyl" name = "vinyl" value = "purchasevinyl">
+                                <label for = "vinyl">Vinyl Record</label><br>
+                            </div>
+
+                        </div>
+                    </fieldset>
+
+                    <div id = "discountcode">
+                        <label for = "redeemcode"><strong>Redeem Code</strong></label><br>
+                        <input type = "text" size = "25" id ="redeemcode" name="code"><br><br>
+                    </div>
+
+                    <button>Send Order</button>
+                </form>
+            </div>
+        </div>
+    <footer>
+        © 2025 Nina Guevara Multimedia Design and Development. All Rights Reserved
+    </footer>
+    </body>
+</html>

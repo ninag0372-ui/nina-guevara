@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>5Ø3 † REBØRN</title>
+        <link href = "styles.css" rel = "stylesheet" type = "text/css"/>
+	</head>
+
+<!-- ------------------------
+NAVIGATION BAR
+------------------------ -->
+
+     <body>
+        <header>
+            <h1><a target ="_blank" href ="index.html"><img src = "images/logo.png" alt = "logo image" width = "50"></a>5Ø3 † REBØRN</h1>
+            <nav>
+                <ul>
+                    <li><a href = "index.html" >HOME</a></li>
+                    <li><a href = "album.html" >ALBUMS</a></li>
+                    <li><a href = "merchandise.html" >MERCHANDISE</a></li>
+                </ul>
+                
+                <div id = "searchbar">
+                    <input type = "text" placeholder="Search" name = "search">
+                    <button type = "submit">Submit</button>
+                </div>
+                <div id = "shoppingcart">
+                    <a target ="_blank" href ="merchorderform.html"><img src = "images/shoppingcart.png" alt = "logo image" width = "30"></a>
+                </div>
+            </nav>
+        </header>
+        
+        <div id = "container1">
+            <div id = "pagebanner">
+                <img src = "images/pageonebanner.png" alt = "purple silouette of a girl, with text saying 'from us, to every soul still loading" width = "900">
+            </div>
+
+<!-- --------------------------------
+-----GENERAL INFORMATION------
+---------------------------------->
+            
+            <div id = "whoarewe">
+                <h2>WHØ ARE 5Ø3 † REBØRN?</h2>
+            </div>
+            
+            <div id = "about">
+                5Ø3 † REBORN is an anonymous indie alternative rock band that primarily works online. This group of four anonymous individuals 
+                prefer to have their real faces hidden from the public eye, instead choosing to credit themselves under their own online aliases.<br><br>
+                
+                They originally started off by making their own covers of already existing songs, but just last year decided to focus on pushing 
+                out their own original music, developing a style that contains intense and powerful lyrics that are meant to 
+                channel the deep frustration that can come from being forced to abandon a passion due to circumstances beyond their control
+            </div>
+            
+            <div id = "ourmembers">
+                AN ANØNYMØUS BAND THAT ØPERATES ØNLINE
+            </div>
+            <div id = "memberphotos">
+                
+                <img src="images/leadsinger.png" alt="Blue silouette of a woman. Below is her online handle @pxguinxox, and she's
+                credited as the lead singer and guitarist" width = "275">
+                
+                <img src="images/Synthizer.png" alt="A muted pink silouette of a woman. Below is her online handle @a_mimia, and she's
+                credited as the synthizer" width = "275">
+                
+                <img src="images/drummer.png" alt="Blue-grey silouette of a man. Below is his online handle @a01_chr0ma, and he's
+                credited as the drummer" width = "275">
+                <img src="images/bassist.png" alt="Purple silouette of a woman. Below is her online handle @Yuukii, and she's
+                credited as the bassist" width = "275">
+            </div>
+
+<!-- --------------------------------
+-----CONCERT INFORMATION------
+---------------------------------->
+
+            <div id = "concerttickets">
+                UPCØMING CØNCERTS
+                <table>
+                    <tr>
+                        <th>DATE</th>
+                        <th>TIME</th>
+                        <th>AVALIBILITY</th>
+                    </tr>
+                    <tr>
+                        <th>December 9 2025</th>
+                        <th>7PM (GMT+9)</th>
+                        <th>10/40 seats remain</th>
+                    </tr>
+                    <tr>
+                        <th>December 16 2025</th>
+                        <th>6PM (GMT+9)</th>
+                        <th>5/40 seats remain</th>
+                    </tr>
+                    <tr>
+                        <th>December 23 2025</th>
+                        <th>11PM (GMT+9)</th>
+                        <th>SOLD OUT</th>
+                    </tr>
+                </table>
+                
+            </div>
+
+<!-- --------------------------------
+-----ORDER TICKETS------
+ ---------------------------------->
+
+            <div id = "ticketorderform">
+                <fieldset>
+                    <legend>
+                        <strong>ORDER A TICKET</strong> 
+                    </legend>
+                    <form action = "ticketpurchasethanks.html">
+                        <div id = "entername">
+                            <label for = "fname"><strong>First Name</strong></label><br>
+                            <input type = "text" size = "25" id ="fname" name="fname" placeholder="Butters"><br><br>
+                            <label for = "lname"><strong> Last Name</strong></label><br>
+                            <input type = "text" size = "25" id ="lname" name="lname" placeholder="Stotch"><br><br>
+                            <label for = "email"><strong>Email</strong></label><br>
+                            <input type = "text" size = "25" id ="email" name="email" placeholder="profchaos@gmail.com"><br><br>
+                        </div>
+
+                        <div id = "selectadate">
+                            <strong>Select a date</strong><br><br>
+                            <input type = "radio" id = "December92025" name = "date" value = "December92025">
+                            <label for = "December92025">December 9 2025</label><br><br>
+                            <input type = "radio" id = "December162025" name = "date" value = "December162025">
+                            <label for = "December162025">December 16 2025</label><br><br>
+                            <input type = "radio" id = "December232025" name="date" value = "December232025">
+                            <label for = "December232025">December 23 2025</label><br><br>
+                        </div>
+
+                        <div id = "ticketprice">
+                            <strong>Price</strong><br><br>
+                                
+                            <input type = "radio" id = "665.93JP¥" name = "date" value = "665.93JP¥">
+                            <label for = "665.93JP¥">665.93 JP¥</label><br><br>
+                            <input type = "radio" id = "$6.00CAD" name = "date" value = "$6.00CAD">
+                            <label for = "$6.00CAD">$6.00 CAD</label><br><br>
+                            <input type = "radio" id = "$4.29USD" name = "date" value = "$4.29USD">
+                            <label for = "$4.29USD">$4.29 USD</label><br><br>
+                        </div>
+
+                        <div id = "recieveupdates">
+                            <input type = "checkbox" id = "updates" name = "updates" value = "updates">
+                            <label for = "updates" >I would like to recive updates for future releases though email</label>
+                        </div>
+
+                        <button>Buy Ticket</button>
+
+                    </form>
+                </fieldset>
+            </div>
+
+<!-- --------------------------------
+-----ALBUM PROMOTION------
+---------------------------------->
+            <div id = "newalbum">
+                <div id = "ordertoday">
+                    <div id = "orderbox">
+                        <form action = "album.html">
+                            GILDED CAGE IS ØUT NØW!<br>
+                            <em> Purchase YOUR COPY TODAY!!</em>
+                            <button>Learn more</button>
+                        </form>
+                    </div> 
+                </div>
+                
+                <div id = "albumcoverpromotion">
+                    <img src="images/frontcover.png" alt="Cover of 5Ø3 † REBØRN's album, Gilded cage, it has an elegantly dressed girl positioned on the far left, 
+                    hoisted up by puppet string over a background resembling worn out and yellowed paper. To her right is the name of the band 5Ø3 † REBØRN and the
+                    name of the album, Gilded Cage" width = "300">
+                </div>
+                
+            </div>
+        </div>
+        
+        <footer>
+                © 2025 Nina Guevara Multimedia Design and Development. All Rights Reserved
+        </footer>
+    </body>
+         
+</html>
